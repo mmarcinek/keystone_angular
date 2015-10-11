@@ -6,7 +6,7 @@ This project is configured to run on port:3000, `node keystone` starts the local
 
 The scaffolded project also is configured for a cloudinary image service which need to be set up in a .env file on the root level, Create the .env file and add your cloudinary url as well as your cookies and Mandrill API Key:
 
-COOKIE_SECRET=[your secret]
+COOKIE_SECRET=[your secret] \n
 MANDRILL_API_KEY=[your Mandrill API Key]
 CLOUDINARY_URL=https://api.cloudinary.com/[your cloudinary id]
 
