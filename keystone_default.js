@@ -24,7 +24,7 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
-	'cookie secret': '2|@"v4%q-V8F|3PLcHJgOa%0@W!"Rc]6r]#@K{C#G;p:xs@C/"@"4RI<]!c0=97w'
+	'cookie secret': '[add here]'
 
 });
 
@@ -59,13 +59,11 @@ keystone.set('nav', {
 	'users': 'users'
 });
 
-
 keystone.set('cloudinary config', {
-	cloud_name: 'dl9o5m5c8',
-	api_key: '589581534751172',
-	api_secret: '-lg09hqU2pjU0jnomFvf29II7Pw'
+	cloud_name: '[add here]',
+	api_key: '[add here]',
+	api_secret: '[add here]'
 });
-
 // Start Keystone to connect to your database and initialise the web server
 
 keystone.start();

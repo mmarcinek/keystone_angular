@@ -27,6 +27,9 @@ node_modules
 # Ignore .env configuration files
 .env
 
+# Ignore keystone.js
+keystone.js
+
 # Ignore .DS_Store files on OS X
 .DS_Store
 
