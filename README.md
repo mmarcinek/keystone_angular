@@ -1,6 +1,6 @@
-###This is a clone from <a href="https://github.com/dvdcastro">DVDCastro's</a> Github repo: I have updated the angular version to 1.4.1, replaced angular-router with ui-router 0.2.15 and added angular-material 0.11.2.
+####This is a clone from <a href="https://github.com/dvdcastro">DVDCastro's</a> Github repo: I have updated the angular version to 1.4.1, replaced angular-router with ui-router 0.2.15 and added angular-material 0.11.2.
 
-### If you clone my repo, run `npm install` & `bower install` to install updated dependencies.
+##### If you clone my repo, run `npm install` & `bower install` to install updated dependencies.
 
 ### The following docs are the original docs from David Castro's repo:
 
