@@ -38,6 +38,7 @@ public/js/lib/angular*
 public/js/lib/hammerjs
 public/js/lib/bootstrap-material-design
 public/js/lib/jquery
+public/js/lib/ui-router
 
 # Ignore mobile stuff
 mobile/platforms
