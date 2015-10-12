@@ -1,6 +1,6 @@
 ####This is a clone from <a href="https://github.com/dvdcastro">DVDCastro's</a> Github repo: I have updated the angular version to 1.4.1, replaced angular-router with ui-router 0.2.15 and added angular-material 0.11.2.
 
-If you clone this repo, run `npm install` & `bower install` to install updated dependencies.
+If you clone this repo, run `npm install` & `bower install` to install updated dependencies. (Note: I have removed Grunt in favor of Gulp and have updated the project accordingly.)
 
 This project is configured to run on port:3000, `node keystone` starts the local server.
 
