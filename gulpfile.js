@@ -19,6 +19,20 @@ var paths = {
 
 };
 
+// gulp Express
+function startExpress() {
+
+  var server = require('express');
+  var app= express();
+  app.use(express.static(__dirname));
+  app.listen(4000);
+}
+
+gulp.task('default', function() {
+  startExpress();
+});
+
+
 // gulp lint
 gulp.task('lint', function(){
   gulp.src(paths.src)
@@ -34,7 +48,6 @@ gulp.task('watch:lint', function () {
     .pipe(jshint.reporter(jshintReporter));
 });
 
-
 gulp.task('watch:sass', function () {
   gulp.watch(paths.style.all, ['sass']);
 });
@@ -45,6 +58,7 @@ gulp.task('sass', function(){
     .pipe(gulp.dest(paths.style.output));
 });
 
+// gulp Jade
 gulp.task('jade', function() {
   gulp.src('templates/**/*.jade')
     .pipe(gulpJade({
@@ -53,7 +67,6 @@ gulp.task('jade', function() {
     }))
     .pipe(gulp.dest('templates/'))
 });
-
 
 gulp.task('runKeystone', shell.task('node keystone.js'));
 gulp.task('watch', [
